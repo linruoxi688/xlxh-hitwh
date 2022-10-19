@@ -1,0 +1,48 @@
+.top-text-wrapper {
+  padding: 20rpx 0 33rpx;
+  background-color: rgb(239, 243, 251);
+  border-radius: 12rpx;
+}
+
+.text-treehole-content {
+  margin-left: 33rpx;
+  margin-right: 33rpx;
+}
+
+.page {
+  padding: 34rpx 48rpx 38rpx;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.group {
+  padding-top: 14rpx;
+}
+
+.image-add-button {
+  /* margin-top: 104rpx; */
+  border-radius: 50%;
+  width: 96rpx;
+  height: 96rpx;
+  position: absolute;
+  left: 0;
+  top: 1100rpx;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.view {
+  margin-right: 6rpx;
+}
+
+.view_1 {
+  margin-right: 6rpx;
+  margin-top: 32rpx;
+}
+
+.scroll-area {
+  height: 1100rpx;
+}

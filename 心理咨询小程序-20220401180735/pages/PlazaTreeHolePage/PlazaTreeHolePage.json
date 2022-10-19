@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "selection-Card":"../../components/SelectionCard/SelectionCard"
+  }
+}

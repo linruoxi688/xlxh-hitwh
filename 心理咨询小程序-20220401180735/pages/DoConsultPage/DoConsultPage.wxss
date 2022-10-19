@@ -1,0 +1,109 @@
+.text-wrapper {
+  margin-top: 30rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 28rpx 0 20rpx 16rpx;
+  background-color: rgb(248, 250, 255);
+  border-radius: 12rpx;
+  border: solid 2rpx rgb(224, 226, 235);
+}
+.text {
+  margin-left: 34rpx;
+}
+.page {
+  padding: 72rpx 0;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.group {
+  padding-left: 65rpx;
+  padding-right: 52rpx;
+}
+.button_area{
+  margin: 100rpx 52rpx 0 48rpx;
+}
+.button {
+  /* margin: 100rpx 52rpx 0 48rpx; */
+  padding: 50rpx 0;
+  color: rgb(255, 255, 255);
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 38rpx;
+  white-space: nowrap;
+  background-color: rgb(51, 105, 255);
+  border-radius: 12rpx;
+}
+.group_1 {
+  margin-top: 60rpx;
+  /* flex: 1 1 75rpx; */
+}
+.group_2 {
+  margin-left: 44rpx;
+  width: 500rpx;
+  /* flex: 1 1 75rpx; */
+}
+.text-id {
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 34rpx;
+  white-space: nowrap;
+}
+.text-name {
+  margin-top: 94rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 34rpx;
+  white-space: nowrap;
+}
+.text-phone {
+  margin-top: 94rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 34rpx;
+  white-space: nowrap;
+}
+.text-date {
+  margin-top: 94rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.text-time {
+  margin-top: 93rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 34rpx;
+  white-space: nowrap;
+}
+.text-describe {
+  margin-top: 95rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.view {
+  margin-top: 0;
+}
+.section_1 {
+  width: 460rpx;
+  margin-top: 28rpx;
+  padding: 20rpx 20rpx 20rpx 16rpx;
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  line-height: 56rpx;
+  background-color: rgb(248, 250, 255);
+  border-radius: 12rpx;
+  border: solid 2rpx rgb(224, 226, 235);
+}

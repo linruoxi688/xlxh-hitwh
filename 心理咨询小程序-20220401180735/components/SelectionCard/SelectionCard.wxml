@@ -1,0 +1,24 @@
+
+  <view class="flex-col card">
+  <text decode="decode" class="text-guide">请告诉我你想倾诉的形式</text>
+  <view class="justify-between equal-division">
+    <view class="flex-col equal-division-item" bindtap="navigateToTextTreeHole">
+      <view class="flex-col items-start group">
+        <image src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487344184009454302.png" class="image-text" />
+        <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343723607424647.png" class="image" />
+      </view>
+      <text decode="decode" class="text-word">文字</text>
+    </view>
+    <view class="horiz-divider">
+    </view>
+    <view class="flex-col items-center" bindtap="navigateToVoiceTreeHole">
+      <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343728492865792.png" class="image-record" />
+      <text decode="decode" class="text-record">录音</text>
+    </view>
+  </view>
+  <!-- <view class="flex-col items-center text-button"
+  bindtap="canclePop">
+    <text decode="decode">取消</text>
+  </view> -->
+</view>
+

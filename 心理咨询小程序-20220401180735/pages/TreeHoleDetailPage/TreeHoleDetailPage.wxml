@@ -1,0 +1,10 @@
+<view class="flex-col page">
+  <view>
+    <text decode="decode" class="text-title-q">Q</text>
+    <text decode="decode" class="text-q">有些事一直在心里憋着。 是这样的，我现在是23岁，研一，因为遇到极品恶劣导师之后，生活和学习上的压力很大很大，经常一个人很崩溃。每当这个时候，我就很想有脱单的想法，希望在自己伤心难过的时候有个陪伴（一个人到异地读书，朋友家人都不在身边）。但是我没谈过恋爱，也知道爱情这种东西不是一下子）</text>
+  </view>
+  <view class="group_1">
+    <text decode="decode" class="text-title-a">A</text>
+    <text decode="decode" class="text-a">认真思考，就能找到答案。</text>
+  </view>
+</view>

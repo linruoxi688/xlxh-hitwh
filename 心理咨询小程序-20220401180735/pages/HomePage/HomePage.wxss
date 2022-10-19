@@ -1,0 +1,36 @@
+.list-item {
+  padding: 44rpx 33rpx 33rpx;
+  background-color: rgb(239, 243, 251);
+  border-radius: 12rpx;
+}
+.text-title {
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  font-weight: 700;
+  line-height: 28rpx;
+  white-space: nowrap;
+}
+.text-content {
+  margin-top: 31rpx;
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  line-height: 56rpx;
+}
+.page {
+  padding: 34rpx 36rpx 322rpx;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.image-swiper {
+  border-radius: 12rpx;
+  width: 91.5vw;
+  height: 40vw;
+}
+.list {
+  margin-top: 32rpx;
+}
+.list-item:last-of-type {
+  margin-top: 32rpx;
+}

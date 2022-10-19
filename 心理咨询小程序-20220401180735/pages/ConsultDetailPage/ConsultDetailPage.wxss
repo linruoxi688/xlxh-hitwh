@@ -1,0 +1,59 @@
+.image-phone {
+  width: 48rpx;
+  height: 48rpx;
+}
+.page {
+  padding: 52rpx 38rpx 0 48rpx;
+  background-color: rgb(248, 250, 255);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.group_2 {
+  margin-top: 36rpx;
+}
+.text-describe {
+  margin: 31rpx 0 -1711rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: 56rpx;
+}
+.text-id-name {
+  margin: 6rpx 0 10rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.group_1 {
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: 27rpx;
+  white-space: nowrap;
+}
+.group_3 {
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.text-status {
+  margin-right: 5rpx;
+  align-self: center;
+  color: rgb(247, 190, 44);
+  font-size: 36rpx;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.text-phone {
+  margin-left: 16rpx;
+  align-self: center;
+}
+.text-date {
+  margin-left: 15rpx;
+  align-self: center;
+}
+.text-time {
+  margin: 5rpx 0 9rpx 20rpx;
+}

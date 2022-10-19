@@ -1,0 +1,72 @@
+.image-pause {
+  width: 48rpx;
+  height: 48rpx;
+}
+.page {
+  padding: 238rpx 50rpx 0;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.guide {
+  align-self: center;
+  color: rgb(10, 10, 51);
+  font-size: 72rpx;
+  line-height: 67rpx;
+  white-space: nowrap;
+}
+.timer {
+  margin-top: 170rpx;
+  padding: 126rpx 0 105rpx;
+  align-self: center;
+  border-radius: 50%;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343656687549301.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 352rpx;
+  border: solid 4rpx rgb(237, 239, 245);
+}
+.group {
+  padding: 160rpx 0 174rpx;
+}
+.text-time {
+  color: rgb(0, 0, 0);
+  font-size: 80rpx;
+  line-height: 60rpx;
+  white-space: nowrap;
+}
+.text-unit {
+  margin-top: 24rpx;
+  color: rgb(0, 0, 0);
+  font-size: 40rpx;
+  line-height: 29rpx;
+  white-space: nowrap;
+}
+.button-light {
+  padding: 45rpx 0 41rpx;
+  color: rgb(10, 10, 51);
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 38rpx;
+  white-space: nowrap;
+  border-radius: 12rpx;
+  border: solid 2rpx rgb(224, 226, 235);
+}
+.button-primary {
+  margin-top: 32rpx;
+  padding: 45rpx 0;
+  color: rgb(255, 255, 255);
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 37rpx;
+  white-space: nowrap;
+  background-color: rgb(51, 105, 255);
+  border-radius: 12rpx;
+}
+.text-top {
+  margin: 4rpx 0 8rpx 22rpx;
+}
+.text-bottom {
+  margin: 4rpx 0 8rpx 21rpx;
+}

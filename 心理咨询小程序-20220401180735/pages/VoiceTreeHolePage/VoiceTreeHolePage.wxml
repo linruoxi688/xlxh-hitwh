@@ -1,0 +1,17 @@
+<view class="flex-col page">
+  <text decode="decode" class="guide">说说你的烦恼吧</text>
+  <view class="flex-col items-center timer">
+    <text decode="decode" class="text-time">4:20</text>
+    <text decode="decode" class="text-unit">min</text>
+  </view>
+  <view class="flex-col group">
+    <view class="justify-center button-light" bindtap="startRecord">
+      <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343656688641173.png" class="image-pause" />
+      <text decode="decode" class="text-top">开始</text>
+    </view>
+    <view class="justify-center button-primary" bindtap="stopRecord">
+      <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343656699035508.png" class="image-pause" />
+      <text decode="decode" class="text-bottom">停止</text>
+    </view>
+  </view>
+</view>

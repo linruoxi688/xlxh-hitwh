@@ -1,0 +1,19 @@
+<view class="flex-col page">
+  <view class="list-item flex-col" wx:key="*this" wx:for-item="item" wx:for-index="i" wx:for="{{consultList}}" bindtap="navigateToConsultDetail" data-id="item.consultId">
+    <view class="justify-between">
+      <text decode="decode" class="text-id-name">{{item.stuId+item.name}}</text>
+      <view class="right-group flex-row">
+        <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343699405924913.png" class="image-phone" />
+        <text decode="decode" class="text-phone">{{item.phone}}</text>
+      </view>
+    </view>
+    <view class="bottom-group justify-between">
+      <view class="left-group flex-row">
+        <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343704494282152.png" class="image-time" />
+        <text decode="decode" class="text-date">{{item.date}}</text>
+        <text decode="decode" class="text-time">{{item.time}}</text>
+      </view>
+      <text decode="decode" class="text-status">{{item.status}}</text>
+    </view>
+  </view>
+</view>

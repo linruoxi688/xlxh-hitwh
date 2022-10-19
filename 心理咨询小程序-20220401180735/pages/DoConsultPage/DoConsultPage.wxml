@@ -1,0 +1,33 @@
+<view class="flex-col page">
+  <form bindsubmit="formSubmit">
+    <view class="flex-row group">
+      <view class="flex-col items-center group_1">
+        <text decode="decode" class="text-id">学号</text>
+        <text decode="decode" class="text-name">姓名</text>
+        <text decode="decode" class="text-phone">手机</text>
+        <text decode="decode" class="text-date">日期</text>
+        <text decode="decode" class="text-time">时间</text>
+        <text decode="decode" class="text-describe">描述</text>
+      </view>
+      <view class="flex-col group_2">
+        <input name="stuId" class="text-wrapper flex-col items-start" />
+        <input name="name" class="text-wrapper flex-col items-start" />
+        <input name="phone" class="text-wrapper flex-col items-start" />
+        <picker mode="date" value="2022-04-08" start="2022-04-01" end="2023-12-31" bindchange="bindDateChange" name="date" class="text-wrapper flex-col items-start">
+          {{consultMsg.date}}
+        </picker>
+        <picker mode="time" value="10:00" start="9:00" end="16:30" bindchange="bindTimeChange" name="time" class="text-wrapper flex-col items-start">
+          {{consultMsg.time}}
+        </picker>
+        <textarea name="describe" class="flex-col section_1">
+        </textarea>
+      </view>
+    </view>
+    <view class="button_area">
+      <button class="button" form-type="submit">
+        提交
+      </button>
+    </view>
+  </form>
+
+</view>

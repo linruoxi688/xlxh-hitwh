@@ -1,0 +1,67 @@
+.page {
+  padding: 166rpx 30rpx 124rpx 30rpx;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.guide {
+  margin-left: 15rpx;
+  color: rgb(10, 10, 51);
+  font-size: 60rpx;
+  line-height: 67rpx;
+  white-space: nowrap;
+}
+.group {
+  margin-top: 120rpx;
+  padding-left: 12rpx;
+}
+.group_1 {
+  margin-top: 120rpx;
+  padding: 0 12rpx;
+  color: rgb(0, 0, 0);
+  font-size: 40rpx;
+  line-height: 37rpx;
+  white-space: nowrap;
+}
+
+.button-area{
+  margin: 120rpx 52rpx 0 48rpx;
+}
+.button {
+  padding: 50rpx 0;
+  color: rgb(255, 255, 255);
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 38rpx;
+  white-space: nowrap;
+  background-color: rgb(51, 105, 255);
+  border-radius: 12rpx;
+}
+.text-describe {
+  margin-top: 30rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  font-weight: 700;
+  line-height: 33rpx;
+  white-space: nowrap;
+}
+.describe-filed {
+  margin-left: 20rpx;
+  padding: 23rpx 27rpx 13rpx 34rpx;
+  flex: 1 1 auto;
+  color: rgb(0, 0, 0);
+  font-size: 30rpx;
+  line-height: 56rpx;
+  white-space: nowrap;
+  background-color: rgb(248, 250, 255);
+  border-radius: 12rpx;
+  height: 400rpx;
+  border: solid 2rpx rgb(224, 226, 235);
+}
+.check-box{
+  margin-left: 10rpx;
+}
+.text-checkbox {
+  margin: 8rpx 63rpx 6rpx 0rpx;
+}

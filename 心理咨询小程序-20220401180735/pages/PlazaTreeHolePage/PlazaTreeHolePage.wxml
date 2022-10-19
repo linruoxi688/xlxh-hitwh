@@ -1,0 +1,19 @@
+<scroll-view scroll-y class="scroll-area">
+
+  <view class="flex-col page">
+    <view class="flex-col group" wx:key="*this" wx:for-item="item" wx:for-index="i" wx:for="{{treeHoleData}}">
+      <view class="top-text-wrapper flex-col view" bindtap="navigateToDetail" data-id="{{item.id}}">
+        <text decode="decode" class="text-treehole-content">
+          {{item.question}}
+        </text>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+<image bindtap="popSelectionCard" src="https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487344215855149030.png" class="image-add-button" />
+<page-container show="{{show}}"
+position="bottom"
+round="true"
+>
+  <selection-Card></selection-Card>
+</page-container>

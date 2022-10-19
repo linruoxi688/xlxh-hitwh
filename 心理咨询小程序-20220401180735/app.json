@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/HomePage/HomePage",
+    "pages/UserPage/UserPage",
+    "pages/PlazaTreeHolePage/PlazaTreeHolePage",
+    "pages/ConsultDetailPage/ConsultDetailPage",
+    "pages/TreeHoleDetailPage/TreeHoleDetailPage",
+    "pages/ConsultListPage/ConsultListPage",
+    "pages/DoConsultPage/DoConsultPage",
+    "pages/TextTreeHolePage/TextTreeHolePage",
+    "pages/VoiceTreeHolePage/VoiceTreeHolePage",
+    "pages/MyTreeHolePage/MyTreeHolePage",
+    "pages/VoiceTreeHoleCommitPage/1",
+    "pages/VoiceTreeHoleCommitPage/VoiceTreeHoleCommitPage"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/HomePage/HomePage",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/PlazaTreeHolePage/PlazaTreeHolePage",
+        "text": "树洞",
+        "iconPath": "images/朋友圈.png",
+        "selectedIconPath": "images/朋友圈-selected.png"
+      },
+      {
+        "pagePath": "pages/DoConsultPage/DoConsultPage",
+        "text": "预约",
+        "iconPath": "images/预约.png",
+        "selectedIconPath": "images/预约-selected.png"
+      },
+      {
+        "pagePath": "pages/UserPage/UserPage",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,2 @@
+<!--pages/VoiceTreeHoleCommitPage/VoiceTreeHoleCommitPage.wxml-->
+<text bindtap="playRecord">pages/VoiceTreeHoleCommitPage/VoiceTreeHoleCommitPage.wxml</text>

@@ -1,0 +1,104 @@
+.page {
+  padding: 0 101rpx 68rpx 128rpx;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.image-top {
+  align-self: center;
+  width: 444rpx;
+  height: 224rpx;
+}
+.image-avatar {
+  margin-top: 100rpx;
+  align-self: center;
+  border-radius: 256rpx;
+  width: 176rpx;
+  height: 176rpx;
+}
+.text-name {
+  margin-top: 56rpx;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  font-size: 56rpx;
+  line-height: 52rpx;
+  white-space: nowrap;
+}
+.equal-division {
+  margin: 122rpx 53rpx 0 40rpx;
+}
+.group {
+  margin-top: 175rpx;
+}
+.group_1 {
+  margin-top: 179rpx;
+  padding-left: 63rpx;
+  padding-right: 44rpx;
+}
+.horiz-divider {
+  margin: 15rpx 0 20rpx;
+  background-color: rgb(224, 226, 235);
+  width: 4rpx;
+  height: 72rpx;
+}
+.text-slogan-purple {
+  color: rgb(165, 166, 246);
+  font-size: 48rpx;
+  line-height: 44rpx;
+  white-space: nowrap;
+}
+.text-slogan-pink {
+  margin-top: 54rpx;
+  align-self: flex-end;
+  color: rgb(241, 120, 182);
+  font-size: 48rpx;
+  line-height: 44rpx;
+  white-space: nowrap;
+}
+.text-phone {
+  margin-top: 22rpx;
+  align-self: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 28rpx;
+  line-height: 21rpx;
+  white-space: nowrap;
+}
+.text-consult-number {
+  color: rgb(0, 0, 0);
+  font-size: 72rpx;
+  line-height: 54rpx;
+  white-space: nowrap;
+}
+.text-consult {
+  margin-top: 24rpx;
+  color: rgb(0, 0, 0);
+  font-size: 32rpx;
+  line-height: 30rpx;
+  white-space: nowrap;
+}
+.text-treehole-number {
+  color: rgb(0, 0, 0);
+  font-size: 72rpx;
+  line-height: 54rpx;
+  white-space: nowrap;
+}
+.text-treehole {
+  margin-top: 24rpx;
+  color: rgb(0, 0, 0);
+  font-size: 32rpx;
+  line-height: 30rpx;
+  white-space: nowrap;
+}
+.text-known {
+  color: rgb(7, 42, 111);
+  font-size: 28rpx;
+  line-height: 26rpx;
+  white-space: nowrap;
+}
+.text-about {
+  color: rgb(7, 42, 111);
+  font-size: 28rpx;
+  line-height: 27rpx;
+  white-space: nowrap;
+}

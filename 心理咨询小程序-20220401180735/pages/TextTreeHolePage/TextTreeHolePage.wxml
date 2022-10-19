@@ -1,0 +1,22 @@
+<form bindsubmit="formSubmit">
+  <view class="flex-col page">
+    <text decode="decode" class="guide">说说你的烦恼吧</text>
+    <view class="flex-row group">
+      <text decode="decode" class="text-describe">描述</text>
+      <textarea class="flex-col describe-filed" name="des">
+
+    </textarea>
+    </view>
+    <view class="flex-row group_1">
+      <checkbox class="check-box" name="public">
+      </checkbox>
+      <text decode="decode" class="text-checkbox">同意我们在广场中展示你的烦恼</text>
+    </view>
+    <view class="button-area">
+    <button class="flex-col items-center button">
+      提交
+    </button>
+    </view>
+    
+  </view>
+</form>

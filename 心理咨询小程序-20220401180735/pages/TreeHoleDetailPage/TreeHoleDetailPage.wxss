@@ -1,0 +1,35 @@
+.page {
+  padding: 54rpx 39rpx 883rpx 48rpx;
+  background-color: rgb(248, 250, 255);
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+.group_1 {
+  margin-top: 31rpx;
+  white-space: nowrap;
+}
+.text-title-q {
+  color: rgb(0, 0, 0);
+  font-size: 64rpx;
+  font-weight: 700;
+  line-height: 56rpx;
+}
+.text-q {
+  margin-left: 34rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: 56rpx;
+}
+.text-title-a {
+  color: rgb(0, 0, 0);
+  font-size: 64rpx;
+  font-weight: 700;
+  line-height: 47rpx;
+}
+.text-a {
+  margin-left: 34rpx;
+  color: rgb(0, 0, 0);
+  font-size: 36rpx;
+  line-height: 37rpx;
+}

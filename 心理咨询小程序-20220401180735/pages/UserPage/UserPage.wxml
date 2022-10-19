@@ -1,0 +1,28 @@
+<view class="flex-col page">
+  <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343757939949392.png" class="image-top" />
+  <image src="https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/6245823a5a7e3f0310b8a7f3/62458267468f3700116dd059/16487343758788551905.png" class="image-avatar" />
+  <text decode="decode" class="text-name">惠君宇</text>
+  <view class="justify-between equal-division" >
+    <view class="flex-col items-center" bindtap="navigateToMyConsult">
+      <text decode="decode" class="text-consult-number">270</text>
+      <text decode="decode" class="text-consult">我的咨询</text>
+    </view>
+    <view class="horiz-divider">
+    </view>
+    <view class="flex-col items-center" bindtap="navigateToMyTreeHole">
+      <text decode="decode" class="text-treehole-number">270</text>
+      <text decode="decode" class="text-treehole">我的树洞</text>
+    </view>
+  </view>
+  <view class="flex-col group">
+    <text decode="decode" class="text-slogan-purple">拥抱阳光生活</text>
+    <text decode="decode" class="text-slogan-pink">做积极健康的自己</text>
+  </view>
+  <view class="flex-col group_1">
+    <view class="flex-row">
+      <text decode="decode" class="text-known">《心理小程序使用须知》</text>
+      <text decode="decode" class="text-about">《关于我们》</text>
+    </view>
+    <text decode="decode" class="text-phone">心理咨询电话：888 8888 8888</text>
+  </view>
+</view>
